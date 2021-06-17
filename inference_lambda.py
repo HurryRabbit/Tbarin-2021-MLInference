@@ -15,12 +15,12 @@ import pytorch_lightning as pl
 from PIL import Image as im
 
 
-s3 = boto3.resource('s3')
-
 def lambda_handler(event, context):
+    # This function is the main body the lambda function executes
+    
     ####### PUT YOUR INFORMATION HERE #######
-    CAPTAIN_EMAIL = 'your_email'            #
-    SALT = 'my_salt'                        #
+    CAPTAIN_EMAIL = 'your_email'            
+    SALT = 'my_salt'                        
     #########################################
     
     # Get current time
@@ -83,7 +83,7 @@ def predict(image):
     ####### PUT YOUR MODEL INFERENCING CODE HERE #######
     
 
-
+    
     ####################################################
-    if _check_datatype_to_string(prediction):
-        return prediction
+    
+    return prediction
