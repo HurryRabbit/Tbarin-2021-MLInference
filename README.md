@@ -64,7 +64,7 @@
 
 ## 資料安全
 API Gateway可使用API金鑰(API Key)驗證，確保不會被惡意濫用
-<br>又API Gateway是AWS的全託管服務之一，AWS會定期測試安全性並且遵循國際資安標準([官方說明]([https://](https://docs.aws.amazon.com/zh_tw/apigateway/latest/developerguide/security.html)))
+<br>又API Gateway是AWS的全託管服務之一，AWS會定期測試安全性並且遵循國際資安標準
 
 ## Lambda程式碼範例
-[程式碼範例連結]([https://](https://github.com/HurryRabbit/Tbarin-2021-MLInference/blob/e6d5a74db1c1bfd87bae78d50133698713a0bbfd/inference_lambda.py))
+https://github.com/HurryRabbit/Tbarin-2021-MLInference/blob/e6d5a74db1c1bfd87bae78d50133698713a0bbfd/inference_lambda.py
